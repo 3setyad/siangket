@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IBISAngket</title>
+    <link href="fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
+		<style>
+			.center {
+				margin: 10px;
+				padding: 10px;
+				height: 100%;
+			}
+		</style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  </head>
+  <body>
+		<img src="flyer.png" class="img-fluid" alt="flyer">
+		<div class="center">
+			<h1>IBISAngket</h1>
+			<select class="form-select mb-3 mt-3" aria-label="Default select example" style="width: fit-content;">
+					<option selected>-- PILIH PROGRAM STUDI --</option>
+					<option value="1">D-III Kebidanan</option>
+					<option value="2">S-1 Teknik Informatika</option>
+					<option value="3">S-1 Sains Data</option>
+					<option value="4">S-1 Bisnis Digital</option>
+			</select>
+			<select class="form-select mb-3 mt-3" aria-label="Default select example" style="width: fit-content;">
+					<option selected>-- PILIH SEMESTER --</option>
+					<option value="1">Semester Ganjil</option>
+					<option value="2">Semester Genap</option>
+			</select>
+			<p class="fst-italic">
+				Keterangan: <br>
+				<i class="fas fa-circle" style="color: #ff0000;"></i> Belum terisi &nbsp;
+				<i class="fas fa-circle" style="color: #11ff00;"></i> Sudah terisi
+			</p>
+			<button type="submit" class="btn btn-success">LIHAT</button>
+			<div class="mt-4 mb-3">
+				<h5>SEMESTER I</h5>
+				<table class="table table-bordered">
+					<tr>
+						<th style="width: 25%;">KODE MK</th>
+						<th>MATA KULIAH</th>
+						<th style="width: 25%;">STATUS</th>
+					</tr> 
+					<tr>
+						<td>2010001</td>
+						<td>ANA ANTA NAHNU</td>
+						<td>
+							<i class="fas fa-circle" style="color: #ff0000;"></i> : 15 &nbsp; 
+							<i class="fas fa-circle" style="color: #11ff00;"></i> : 17 &nbsp;
+							<button type="button" class="btn btn-outline-info"><i class="fas fa-info-circle"></i>&nbsp;Detail</button>
+						</td>
+					</tr>
+					<tr>
+						<td>2010001</td>
+						<td>ANA ANTA NAHNU</td>
+						<td>
+							<i class="fas fa-circle" style="color: #ff0000;"></i> : 15 &nbsp; 
+							<i class="fas fa-circle" style="color: #11ff00;"></i> : 17 &nbsp;
+							<button type="button" class="btn btn-outline-info"><i class="fas fa-info-circle"></i>&nbsp;Detail</button>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="mt-4 mb-3">
+				<h5>SEMESTER III</h5>
+				<table class="table table-bordered">
+					<tr>
+						<th style="width: 25%;">KODE MK</th>
+						<th>MATA KULIAH</th>
+						<th style="width: 25%;">STATUS</th>
+					</tr> 
+					<tr>
+						<td>2010001</td>
+						<td>ANA ANTA NAHNU</td>
+						<td>
+							<i class="fas fa-circle" style="color: #ff0000;"></i> : 15 &nbsp; 
+							<i class="fas fa-circle" style="color: #11ff00;"></i> : 17 &nbsp;
+							<button type="button" class="btn btn-outline-info"><i class="fas fa-info-circle"></i>&nbsp;Detail</button>
+						</td>
+					</tr>
+					<tr>
+						<td>2010001</td>
+						<td>ANA ANTA NAHNU</td>
+						<td>
+							<i class="fas fa-circle" style="color: #ff0000;"></i> : 15 &nbsp; 
+							<i class="fas fa-circle" style="color: #11ff00;"></i> : 17 &nbsp;
+							<button type="button" class="btn btn-outline-info"><i class="fas fa-info-circle"></i>&nbsp;Detail</button>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
